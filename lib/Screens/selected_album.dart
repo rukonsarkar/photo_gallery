@@ -29,7 +29,8 @@ class SelectedAlbum extends StatelessWidget {
               width: 40,
               height: 40,
               decoration: BoxDecoration(
-                  color: Colors.white38, borderRadius: BorderRadius.circular(10.0)),
+                  color: Colors.white38,
+                  borderRadius: BorderRadius.circular(10.0)),
               child: const Center(
                 child: Icon(
                   Icons.arrow_back_ios_new,
@@ -170,15 +171,15 @@ class SelectedAlbum extends StatelessWidget {
                 bottomContainer(
                     orientation: orientation,
                     context: context,
-                    containerLabel: "Dawn",
+                    containerLabel: "Nature",
                     containerImage:
-                        "https://images.pexels.com/photos/1008737/pexels-photo-1008737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
+                        "https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=600"),
                 bottomContainer(
                     orientation: orientation,
                     context: context,
-                    containerLabel: "Leaves",
+                    containerLabel: "Alone",
                     containerImage:
-                        "https://images.pexels.com/photos/1687341/pexels-photo-1687341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
+                        "https://images.pexels.com/photos/1478685/pexels-photo-1478685.jpeg?auto=compress&cs=tinysrgb&w=600"),
               ],
             )
           ],
